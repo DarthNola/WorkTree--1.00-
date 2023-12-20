@@ -1,0 +1,39 @@
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.inputs{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.inputs section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.inputs section input ,.inputs section select{
+    height: 2rem;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    text-align: center;
+    padding: 1rem;
+}
+.buttons button{
+    height: 3rem;
+    border-radius: 10%;
+    border: 2px solid green;
+
+}

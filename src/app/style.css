@@ -1,0 +1,28 @@
+.table-header{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.table-header section{
+    text-align: center;
+    background: black;
+    color: white;
+    border: solid 1px deepskyblue;
+}
+.table-rows{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.table-rows section{
+    text-align: center;
+    border: solid 1px deepskyblue;
+}
+.updatebtn{
+    min-width: .5fr;
+    background-color: green;
+    color: white;
+}
+.deletebtn{
+    min-width: .5fr;
+    background-color: red;
+    color: white;
+}

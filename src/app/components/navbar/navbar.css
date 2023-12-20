@@ -1,0 +1,29 @@
+#Navabar{
+    display: flex;
+    min-height: 8vh;
+    background: black;
+    color: white;
+}
+#logo{
+    flex-grow: 1;
+}
+
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+.link{
+    text-decoration-line: none;
+    color: white;
+}
+li:hover{
+    background:deepskyblue;
+}
+.links{
+    flex-grow: 8;
+}
+nav{
+    float: right;
+}
+
