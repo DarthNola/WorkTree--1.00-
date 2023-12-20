@@ -21,14 +21,14 @@ const Popup: React.FC<UpdateModalProps> = ({ isSuccess, error, onClose, text1 })
                     <CheckCircleIcon className="successicon"/>
                     <p>{text1}</p>
 
-                    <Link href="/employees"><button onClick={onClose}>Close</button></Link>
+                    <Link href="/"><button onClick={onClose}>Close</button></Link>
                 </>
             ) : (
                 <>
                     <ErrorIcon className="erroricon"/>
                     <p>{error}</p>
 
-                    <Link href="/employees"><button onClick={onClose}>Close</button></Link>
+                    <Link href="/"><button onClick={onClose}>Close</button></Link>
                 </>
             )}
         </div>
